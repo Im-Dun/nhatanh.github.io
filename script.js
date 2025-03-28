@@ -1,17 +1,17 @@
 $(document).ready(function () {
     let books = [
-        { title: "Nếu chỉ còn một ngày để sống", price: 80000, image: "file:///C:/Users/Giga/OneDrive/B%C3%A0i%20t%E1%BA%ADp%20l%E1%BB%9Bn1/image/anh/anh1.jpg.jpg" },
-        { title: "Tây du ký ", price: 90000, image: "file:///C:/Users/Giga/OneDrive/B%C3%A0i%20t%E1%BA%ADp%20l%E1%BB%9Bn1/image/anh/anh2.jpg.jpg" },
-        { title: "Người đua diều ", price: 120000, image: "file:///C:/Users/Giga/OneDrive/B%C3%A0i%20t%E1%BA%ADp%20l%E1%BB%9Bn1/image/anh/anh3.jpg.jpg" },
-        { title: "Hồ quý ly ", price: 100000, image: "file:///C:/Users/Giga/OneDrive/B%C3%A0i%20t%E1%BA%ADp%20l%E1%BB%9Bn1/image/anh/anh4.jpg.jpg" },
-        { title: "Cuộc chiến đầu tiên ", price: 85000, image: "file:///C:/Users/Giga/OneDrive/B%C3%A0i%20t%E1%BA%ADp%20l%E1%BB%9Bn1/image/anh/anh5.jpg.jpg" },
-        { title: "Kiếp nào là cũng tìm tim thấy nhau ", price: 110000, image: "file:///C:/Users/Giga/OneDrive/B%C3%A0i%20t%E1%BA%ADp%20l%E1%BB%9Bn1/image/anh/anh6.jpg.jpg" },
-        { title: "Cuộc đời cuat Pi ", price: 95000, image: "file:///C:/Users/Giga/OneDrive/B%C3%A0i%20t%E1%BA%ADp%20l%E1%BB%9Bn1/image/anh/anh7.jpg.jpg" },
-        { title: "Hoàng tử bé ", price: 60000, image: "file:///C:/Users/Giga/OneDrive/B%C3%A0i%20t%E1%BA%ADp%20l%E1%BB%9Bn1/image/anh/anh8.jpg.jpg" },
-        { title: "Ông già và biển cả ", price: 70000, image: "file:///C:/Users/Giga/OneDrive/B%C3%A0i%20t%E1%BA%ADp%20l%E1%BB%9Bn1/image/anh/anh9.jpg.jpg" },
-        { title: "Khải huyền muộn ", price: 95000, image: "file:///C:/Users/Giga/OneDrive/B%C3%A0i%20t%E1%BA%ADp%20l%E1%BB%9Bn1/image/anh/anh10.jpg.jpg" },
-        { title: "Cây cam ngọt của tôi ", price: 130000, image: "file:///C:/Users/Giga/OneDrive/B%C3%A0i%20t%E1%BA%ADp%20l%E1%BB%9Bn1/image/anh/anh11.jpg.jpg" },
-        { title: "Trăm năm cô đơn ", price: 50000, image: "file:///C:/Users/Giga/OneDrive/B%C3%A0i%20t%E1%BA%ADp%20l%E1%BB%9Bn1/image/anh/anh12.jpg.jpg" }
+        { title: "Nếu chỉ còn một ngày để sống", price: 80000, image: "./image/anh/anh1.jpg.jpg" },
+        { title: "Tây du ký ", price: 90000, image: "./image/anh/anh2.jpg.jpg" },
+        { title: "Người đua diều ", price: 120000, image: "./image/anh/anh3.jpg.jpg" },
+        { title: "Hồ quý ly ", price: 100000, image: "./image/anh/anh4.jpg.jpg" },
+        { title: "Cuộc chiến đầu tiên ", price: 85000, image: "./image/anh/anh5.jpg.jpg" },
+        { title: "Kiếp nào là cũng tìm tim thấy nhau ", price: 110000, image: "./image/anh/anh6.jpg.jpg" },
+        { title: "Cuộc đời cuat Pi ", price: 95000, image: "./image/anh/anh7.jpg.jpg" },
+        { title: "Hoàng tử bé ", price: 60000, image: "./image/anh/anh8.jpg.jpg" },
+        { title: "Ông già và biển cả ", price: 70000, image: "./image/anh/anh9.jpg.jpg" },
+        { title: "Khải huyền muộn ", price: 95000, image: "./image/anh/anh10.jpg.jpg" },
+        { title: "Cây cam ngọt của tôi ", price: 130000, image: "./image/anh/anh11.jpg.jpg" },
+        { title: "Trăm năm cô đơn ", price: 50000, image: "./image/anh/anh12.jpg.jpg" }
     ];
 
     books.forEach((book) => {
